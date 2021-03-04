@@ -9,8 +9,8 @@ class Crawler
   end
 
   def start_crawl
-    links = @extractor.extract_links(@base_url)
-    @printer.print_links(links)
-    links
+    child_links = @extractor.extract_links(@base_url)
+    @printer.print_links(@base_url, child_links)
+    puts "finished crawling"
   end
 end
