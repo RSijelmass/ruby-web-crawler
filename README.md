@@ -15,3 +15,17 @@ To run all tests, run:
 ```
 rspec
 ```
+
+## Specs
+V1
+We want this project:
+- To be able to start crawling from a certain URL. This URL can be hardcoded.
+- to fetch all URLs from this main URL
+- to return a list of all URLs that are on this base URL
+
+V2
+We want this project:
+- To be able to start crawling from a certain URL. This URL can be hardcoded.
+- to fetch all URLs from this main URL
+- for each URL returned, to go one level deep and fetch all URLs for each child URL
+- to return all fetched URLs. We want to have an understanding of the tree structure what child URL belongs to which parent.
