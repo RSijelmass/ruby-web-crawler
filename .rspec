@@ -1,2 +1,1 @@
 --require spec_helper
-require 'byebug' ## require every testing gem
